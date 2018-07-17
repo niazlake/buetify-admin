@@ -1,0 +1,58 @@
+page-reg {
+
+  #img{
+    background-image: url("../../assets/imgs/girl.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 90px;
+    display: block;
+    right: 2%;
+    position: absolute;
+    z-index: 1;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: #D8D8D8;
+  }
+   #btn{
+    border-radius: 6px;
+    font-size: 1em;
+  }
+  .item.item-input{
+    background-color: transparent;
+    border-bottom: 1px solid #797979;
+    color: #797979;
+  }
+  .item-inner {
+    background: transparent;
+    margin-left: 6px;
+  }
+  ion-input{
+    font-size: 0.75em;
+    background: transparent;
+  }
+  .leftImg{
+   width: 75%;
+  }
+  .border{
+    border-bottom: 1px solid #848484;
+  }
+  .text-input{
+    margin-left: 0px;
+  }
+  .outer-addImg{
+    height: 85px;
+    text-align: center;
+  }
+  .inner-addImg{
+    margin-left: 5px;
+    width: 135px;
+    display: inline-block;
+    border-radius: 5%;
+    height: 85px;
+    border: #848484 1px solid;
+  }
+}

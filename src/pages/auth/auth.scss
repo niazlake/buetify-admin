@@ -1,0 +1,38 @@
+page-auth {
+  .content{
+    background: url("../../assets/imgs/Vector.png") top right no-repeat;
+    background-size: cover;
+    background-color: white;
+  }
+  #logo{
+    background-image: url("../../assets/imgs/suluwith.svg");
+    background-size: cover;
+    height: 220px;
+    width: 220px;
+    margin-top: 16%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  ion-input{
+    font-size: 0.75em;
+    background: transparent;
+  }
+  .btn{
+    border-radius: 6px;
+    font-size: 1em;
+  }
+  form{
+    margin-top: 26%;
+  }
+  .item-inner {
+    background: transparent;
+  }
+  .item.item-input{
+    background-color: transparent;
+    border-bottom: 1px solid #797979;
+    color: #797979;
+  }
+}
