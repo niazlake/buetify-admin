@@ -49,10 +49,22 @@ page-reg {
   }
   .inner-addImg{
     margin-left: 5px;
-    width: 135px;
+    width: 45%;
     display: inline-block;
     border-radius: 5%;
     height: 85px;
     border: #848484 1px solid;
+  }
+  #camera{
+    background-image: url("../../assets/imgs/camera.svg");
+    color: #848484;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #img-plus{
+    background-image: url("../../assets/imgs/image-plus.svg");
+
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }

@@ -34,25 +34,25 @@
     </ion-list>
   </div>
   <div class="outer-addImg">
-      <div class="inner-addImg"></div>
-      <div class="inner-addImg"></div>
+      <div class="inner-addImg" id="camera"></div>
+      <div class="inner-addImg" id="img-plus"></div>
   </div>
-    <div>
+  <div>
     <ion-item no-lines>
       <ion-icon item-start name="md-time" color="text"></ion-icon>
       <p color="text">Регламент работы:</p>
     </ion-item>
     <ion-item>
       <ion-label>С</ion-label>
-      <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A"></ion-datetime>
+      <ion-datetime displayFormat="HH:mm" pickerFormat="HH:mm"></ion-datetime>
     </ion-item>
     <ion-item>
       <ion-label>-</ion-label>
     </ion-item>
     <ion-item>
       <ion-label>До</ion-label>
-      <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A"></ion-datetime>
+      <ion-datetime displayFormat="HH:mm" pickerFormat="HH:mm"></ion-datetime>
     </ion-item>
-    <button margin-top="15px" id="btn" ion-button block round color="sulu">Далее</button>
+    <button margin-top="15px" id="btn" ion-button block round color="sulu" (click)="next()">Далее</button>
   </div>
 </ion-content>

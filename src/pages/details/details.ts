@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {DetailsPage} from "../details/details";
 
 /**
- * Generated class for the RegPage page.
+ * Generated class for the DetailsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,18 +10,19 @@ import {DetailsPage} from "../details/details";
 
 @IonicPage()
 @Component({
-  selector: 'page-reg',
-  templateUrl: 'reg.html',
+  selector: 'page-details',
+  templateUrl: 'details.html',
 })
-export class RegPage {
+export class DetailsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RegPage');
+    console.log('ionViewDidLoad DetailsPage');
   }
   next(){
-    this.navCtrl.push(DetailsPage);
+    
   }
+
 }
