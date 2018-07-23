@@ -6,30 +6,30 @@
 -->
 <ion-content padding>
   <div style="height: 50px"></div>
-  <div>
-    <ion-item>
+  <div class="salon-info">
+    <ion-item no-lines>
       <ion-textarea rows="6" placeholder="О салоне..."></ion-textarea>
     </ion-item>
   </div>
-  <div>
-    <ion-list no-border>
+  <div class="masters">
+    <ion-list inset no-border>
       <ion-item>
-        <p color="text">Мастер 1</p>
+        <p color="text" class="master">Мастер 1</p>
         <ion-icon item-end small name="md-create" color="text"></ion-icon>
       </ion-item>
       <ion-item>
-        <p color="text">Мастер 1</p>
+        <p color="text" class="master">Мастер 1</p>
         <ion-icon item-end small name="md-create" color="text"></ion-icon>
       </ion-item>
       <ion-item>
-        <p color="text">Мастер 1</p>
+        <p color="text" class="master">Мастер 1</p>
         <ion-icon item-end small name="md-create" color="text"></ion-icon>
       </ion-item>
       <ion-item>
-        <p color="text">Добавить мастера...</p>
+        <p color="text" class="master">Добавить мастера...</p>
         <ion-icon item-end small name="md-create" color="text"></ion-icon>
       </ion-item>
     </ion-list>
   </div>
-  <button margin-top="15px" id="btn" ion-button block round color="sulu" (click)="next()">Далее</button>
+  <button id="btn" ion-button block round color="sulu" (click)="next()">Далее</button>
 </ion-content>

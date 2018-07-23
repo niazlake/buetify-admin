@@ -22,7 +22,7 @@ export class DetailsPage {
     console.log('ionViewDidLoad DetailsPage');
   }
   next(){
-    
+
   }
 
 }

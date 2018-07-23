@@ -2,5 +2,29 @@ page-details {
   #btn{
     border-radius: 6px;
     font-size: 1em;
+    margin-top: 60px;
+  }
+  .input.input-ios, .input.input-wp{
+    padding-left: 14px;
+    font-size: 0.75em;
+    background-color: #eeeeee;
+  }
+  .text-input.text-input-md, .input.input-md{
+    font-size: 0.8em;
+    background-color: #eeeeee;
+  }
+  .text-input.text-input-wp{
+    border: none;
+  }
+  .masters, .salon-info{
+    font-size: 0.75em;
+    border-radius: 5px;
+    background-color: #eeeeee;
+  }
+  .item.item-block.item-ios, .item.item-block.item-md, .item.item-block.item-wp {
+    background-color: #eeeeee;
+  }
+  .master{
+    font-size: 0.75em;
   }
 }

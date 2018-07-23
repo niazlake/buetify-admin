@@ -8,22 +8,22 @@ page-reg {
     height: 90px;
     width: 90px;
     display: block;
-    right: 2%;
+    right: 5%;
     position: absolute;
     z-index: 1;
     float: right;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    background-color: #D8D8D8;
+    background-color: #D3D3D3;
   }
    #btn{
     border-radius: 6px;
     font-size: 1em;
   }
-  .item.item-input{
+  .item.item-input, .item.item-block.item-ios.item-input{
     background-color: transparent;
-    border-bottom: 1px solid #797979;
+    border-bottom: 1px solid #D3D3D3;
     color: #797979;
   }
   .item-inner {
@@ -66,5 +66,24 @@ page-reg {
 
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .outer-reg{
+    height: 80px;
+    text-align: center;
+  }
+  .inner-reg{
+    margin-left: 5px;
+    width: 40%;
+    display: inline-block;
+  }
+  #inner-reg-center{
+    width: 5%;
+  }
+  .item.item-block.item-ios.item-input.item-textarea{
+    background-color: #F1F1F1;
+    border-radius: 5%;
+  }
+  .text-input.text-input-ios{
+    font-size: 0.75em;
   }
 }

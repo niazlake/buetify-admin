@@ -42,17 +42,24 @@
       <ion-icon item-start name="md-time" color="text"></ion-icon>
       <p color="text">Регламент работы:</p>
     </ion-item>
-    <ion-item>
-      <ion-label>С</ion-label>
-      <ion-datetime displayFormat="HH:mm" pickerFormat="HH:mm"></ion-datetime>
-    </ion-item>
-    <ion-item>
-      <ion-label>-</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>До</ion-label>
-      <ion-datetime displayFormat="HH:mm" pickerFormat="HH:mm"></ion-datetime>
-    </ion-item>
+
+   <div class="outer-reg">
+     <div class="inner-reg">
+       <ion-item>
+         <ion-label color="text">С</ion-label>
+         <ion-datetime displayFormat="HH:mm" pickerFormat="HH:mm"></ion-datetime>
+       </ion-item>
+     </div>
+     <div class="inner-reg" id="inner-reg-center">
+       <p color="text"> - </p>
+     </div>
+     <div class="inner-reg">
+       <ion-item>
+        <ion-label color="text">До</ion-label>
+        <ion-datetime displayFormat="HH:mm" pickerFormat="HH:mm"></ion-datetime>
+       </ion-item>
+     </div>
+   </div>
     <button margin-top="15px" id="btn" ion-button block round color="sulu" (click)="next()">Далее</button>
   </div>
 </ion-content>
